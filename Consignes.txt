@@ -1,0 +1,9 @@
+A partir d'un ensemble de paramètres caractéristiques d'un accident,
+
+Saurez-vous prédire la gravité d'un accident, et les déterminants correspondants ?
+
+On dispose de 4 niveaux de gravité (soit 4 catégories). Pour chaque accident, qui peut impliquer plusieurs véhicules et plusieurs usagers, on définit une variable binaire GRAVE qui vaudra 1 si au moins l'un des usagers impliqués est tué ou hospitalisé (variable grav=2 ou 3), et 0 sinon.
+On demande de prédire la probabilité que l'accident soit GRAVE en tenant compte de l'ensemble des autres variables explicatives.
+La mesure de performance sera mesurée au sens de l'AUC
+NB -- Une variante du concours pourait être de prédire chacun des niveaux de gravité (de 1 à 4) pour chacun des usagers. Mais c'est peut être aussi un passage possible pour répondre à la question…
+Pour traiter le problème, vous pouvez utiliser l'ensemble des méthodes vues en cours et au-delà. Vous devez analyser les données, éventuellement imaginer et créer de nouvelles variables explicatives (feature engineering) par régression, fusionner des tables, regrouper les données par clustering, réduire la dimension par PCA, utiliser des approches non linéaires, des réseaux de neurones, etc… Il faudra vous montrer inventif et rigoureux, notamment dans le choix de vos paramètres et en évaluant systématiquement les performances de vos choix…
