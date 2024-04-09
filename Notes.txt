@@ -1,0 +1,36 @@
+Compréhension de "Description de la liste des véhicules immatriculés impliqués dans les accidents corporels de la circulation routière 2009-2021"
+
+Contexte :
+
+	- Implique au moins 1 véhicule, au moins 1 victime ayant nécessité des soins, survient sur une voie publique ou privée, ouverte à la circulation publique
+	- Saisies d'informations par l'unité des forces de l'ordre
+	- Intervenue sur le lieu de l'accident
+	- Constituent le fichier "BAAC" administré par "l'ONISR"
+	- Contient uniquement les véhicules immatriculés (peut contenir un accident avec un véhicule immatriculé et un usager vulnérable)
+
+Changement :
+
+	- Depuis 2018, modification de saisie. "Blessé hospitalisé" n'est plus labelisé par l'autorité de la statistique publique depuis 2019
+	- Depuis 2021, les usagers en fuite ont été rajoutés (entraîne des manques sur le sexe, l'âge, voire la gravité des blessures)
+
+Recommandation :
+
+	- Prendre connaissance de la structure de la BAAC et du guide d'utilisation de la codification du bulletin d'analyse des accidents corporels de la circulation
+
+Données :
+	
+	- BAAC de 2010 (inclus) à 2022 (inclus)
+
+Accident Corporel :
+
+	- Personnes indemnes : impliquées non décédée et aucun soin médical nécessaire suite à l'accident
+	- Victimes :
+		- tuées : personnes qui décèdent du fait de l'accident (sur le coup ou sous 30 jours)
+		- blessées : victimes non tuées
+			- hospitalisées : +24h d'hospitalisation 
+			- légers : objet de soins médicaux avec -24h d'hospitalisation
+	
+
+- Descriptif des variables : TOUT EST DANS LE DOCUMENT "description-des-bases-de-donnees-annuelles-2022.pdf"
+
+

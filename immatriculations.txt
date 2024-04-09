@@ -1,0 +1,49 @@
+Variables :
+
+	- Id_Accident : identifiant de l'accident
+	- Lettre convetionnelle véhicule : identifiant de chaque véhicule impliqué dans un accident (code alpha), lettres uniques au sein de l'accident mais pas de la liste. Ordre sans signification (PAS TRES BIEN COMPRIS)
+	- Année : de l'accident
+	- Territoire : Métropole (France métropolitaine)/DOM (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte)/Autres OM (SB, SM, SP&M, NC, PF, W&F)
+	- Type d'accident : 
+		- léger : au moins 1 blessé léger, 0 blessé hospitalisés, 0 tué
+		- grave non mortel : au moins 1 blessé hospitalisé, 0 tué
+		- mortel : au moins 1 tué
+	- CNIT : identifie les différents types de véhicules et les caractéristiques associées à ces véhicule (type de véhicule, la marque, le modèle, la version, la motorisation...). Numéro unique pour le véhicule.
+		-> 12 caractères en 1996, puis 15 caractères en 2009
+	- Catégorie Véhicule :
+		-  cyclo : 	
+			- cyclomoteur : < 50 cm3
+			- scooter : < 50 cm3			
+			- 3RM : <= 50 cm3
+		-  moto légère : 	
+			- motocyclette : 50 cm3 < X <= 125 cm3
+			- scooter : 50 cm3 < X <= 125 cm3			
+			- 3RM : 50 cm3 < X <= 125 cm3
+		-  moto lourde : 	
+			- motocyclette : > 125 cm3
+			- scooter : > 125 cm3			
+			- 3RM : > 125 cm3
+		- VT : 
+			- véhicule de tourisme
+			- véhicule léger seul
+		- VU : 
+			- véhicule utilitaire 1.5T <= PTAC <= 3.5T avec remorque
+			- véhicule utilitaire 1.5T <= PTAC <= 3.5T sans remorque)
+		- PL : 
+			- poids lourd seul 3.5T <= PTAC <= 7.5T
+			- poids lourd seul > 7.5T
+			- poids lourd seul > 3.5T + remorque
+			- tracteur routier seul
+			- tracteur routier avec semi-remorque
+		- Autres :
+			- Autobus
+			- Autocar
+			- Train
+			- Tramway
+			- Quad léger <= 50 cm3 (quadricyle à moteur non carrosé)
+			- Quad lourd > 50 cm3 (quadricyle à moteur non carrosé)
+			- Tracteur Agricole
+			- Voiturette (quadricyle à moteur carrosé)
+			- Engin spécial
+			- Autre véhicule
+	- Age véhicule : depuis la 1ere mise en ciruclation jusqu'à la date de l'accident
