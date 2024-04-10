@@ -1,0 +1,6 @@
+Décisions :
+
+-> Suppression de "BAAC-Annee-2010" et "BAAC-Annee-2011" :
+	-> Immatriculations mal construit au niveau du numéro d'identifiant de l'accident
+	-> Disposant d'un large jeu de données, on émet l'hypothèse que l'on peut s'en passer
+	-> Jeux de données de 2012 à 2022 plus cohérents pour un traitement global
