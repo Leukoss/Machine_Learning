@@ -1,0 +1,39 @@
+CARACTERISTIQUES : 
+
+Années 2005 à 2020:
+
+	- Num_Acc -> supprimé
+	- jour -> 1, 2, ..., 31
+	- mois -> 1, 2, ..., 12
+	- an -> 2012, 2013, ..., 2022
+	- hrmn -> formater en catégorie (0-1h, 1-2h, ...)
+	- lum -> 1, 2, 3, 4, 5 -> suppresion des -1
+	- dep -> harmonisation (01 ou 1 => 1, suppression des départements non répertorié...)
+	- com -> supprimé
+	- agg -> 1, 2 -> 0, 1
+	- int -> -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 -> 1, 2, 3, 4, 5, 6, 7, 8, 9
+	- atm -> -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 -> 1, 2, 3, 4, 5, 6, 7, 8, 9
+	- cool -> -1, 0, 1, 2, 3, 4, 5, 6, 7 -> 1, 2, 3, 4, 5, 6, 7, 8 
+	- adr -> supprimé (trop hétérogène)
+	- lat -> supprimé (trop complexe)
+	- long -> supprimé (trop complexe)
+
+
+Années 2005 à 2018:
+
+	- Num_Acc -> supprimé
+	- jour -> 1, 2, ..., 31
+	- mois -> 1, 2, ..., 12
+	- an -> 2012, 2013, ..., 2022
+	- hrmn -> formater en catégorie (0-1h, 1-2h, ...)
+	- lum -> 1, 2, 3, 4, 5 -> suppresion des -1
+	- dep -> harmonisation (01 ou 1 => 1, suppression des départements non répertorié...)
+	- com -> supprimé
+	- agg -> 1, 2 -> 0, 1
+	- int -> -1, 0, 1, 2, 3, 4, 5, 7, 8, 9 -> 1, 2, 3, 4, 5, 7, 8, 9
+	- atm -> -1, 0, 1, 2, 3, 4, 5, 7, 8, 9 -> 1, 2, 3, 4, 5, 7, 8, 9
+	- cool -> -1, 0, 1, 2, 3, 4, 5, 6, 7 -> 1, 2, 3, 4, 5, 6, 7, 8 
+	- adr -> supprimé (trop hétérogène)
+	- gps -> supprimé (inutile avec lat/long)
+	- lat -> supprimé (trop complexe)
+	- long -> supprimé (trop complexe)
